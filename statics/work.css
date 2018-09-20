@@ -1,4 +1,4 @@
-/* about me page */
+/* work page */
 body {
     margin: 0;
 }
@@ -16,7 +16,7 @@ body {
 .header-1 {   
     background: #C3B4C1;
     border: 1px solid white;
-    grid-row: 1 / span 1;
+    grid-row: 1 / 2;
 }
 
 .header-2 {
@@ -24,14 +24,14 @@ body {
     background-image: no-repeat;
     background-size: cover;
     background-position: center center;
-    grid-row: 2 / span 1;
+    grid-row: 2 / 3;
     position: relative;
     z-index: -1;
     text-align: center;
     color: white;
 }
 
-.main .fiona-bw {
+.main img {
     margin-top: -100px;
     object-fit: none;
     border-radius: 80%;
@@ -45,17 +45,36 @@ body {
     margin-bottom: 0px;
 }
 
-.about-text{
-
+ul{ 
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
-.about-image {
-}
+.nav-bar {
+    flex-wrap: wrap;
+    position: absolute;
+    bottom: 665px;
+    right: 10px;
+    text-align: right;
+    } 
 
-.footer{
-    background: #C3B4C1;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    grid-row: 4 / 5;
+.work {
+    position: center;
+    bottom: 250px;
+    left: 16px;
+    text-align: center;
+    font-style: italic;
+    font-family: 'Raleway', sans-serif;
+    color: #636161;
+    font-size: 50px;
+    line-height: 1.6;
+    }
+
+    .footer{
+        background: #C3B4C1;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        grid-row: 4 / 5;
 }
