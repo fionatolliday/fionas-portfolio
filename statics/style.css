@@ -9,7 +9,7 @@ body {
     grid-template-rows: 0.25fr 0.8fr 2fr 0.5fr;
     grid-template-columns: 1fr;
     font-family: 'Raleway', sans-serif;
-    font-color: #636161;
+    color: #636161;
     
 }
 
@@ -48,12 +48,12 @@ body {
 
 .quote-mobile {
     position: absolute;
-    bottom: 0px;
-    left: 16px;
+    bottom: 70px;
+    left: 14px;
     text-align: left;
     font-style: italic;
     font-family: 'Raleway', sans-serif;
-    color: navy;
+    color: white;
     font-size: 18px;
 }
 
@@ -72,19 +72,35 @@ body {
 
     .quote-mobile {
         display: none;
-        grid-row: 2 / 3;
+        grid-row: 2 / 3; 
     }
+
  }
 
+
  .nav-bar-desktop {
+    flex-wrap: wrap;
     position: absolute;
-    bottom: 600px;
-    right: 16px;
+    bottom: 665px;
+    right: 10px;
     text-align: right;
     }  
 
+    .nav-bar-mobile {
+        position: center;
+        margin-top: 55px;
+        bottom: 665px;
+        right: 10px;
+        text-align: center;
+        font-size: 35px;
+        color: #636161;
+        line-height: 2;
+        } 
+
    .nav-bar-desktop li{
-        display: inline;
+    flex-flow: row wrap;    
+    display: inline-flex;
+
     }
 
     .quote-desktop {
@@ -94,9 +110,11 @@ body {
         text-align: center;
         font-style: italic;
         font-family: 'Raleway', sans-serif;
-        font-color: #636161;
+        color: #636161;
         font-size: 50px;
+        line-height: 1.6;
     }
+
 
 /* mobile screen */
 @media only screen and (max-width: 600px){
@@ -109,12 +127,15 @@ body {
         display: none;
         grid-row: 3 / span 1;
     }
+
 }
 
 .footer{
-    background: #C3B4C1;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    grid-row: 4 / 5;
+        background: #C3B4C1;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        grid-row: 4 / 5;
 }
+
+
