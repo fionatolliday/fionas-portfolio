@@ -83,6 +83,10 @@ body {
     text-align: right;
     }  
 
+   .nav-bar-desktop li{
+        display: inline;
+    }
+
     .quote-desktop {
         position: center;
         bottom: 250px;
