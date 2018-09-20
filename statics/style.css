@@ -35,6 +35,7 @@ body {
     margin-top: -100px;
     object-fit: none;
     border-radius: 80%;
+    border: 1px solid white;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -56,41 +57,60 @@ body {
     font-size: 18px;
 }
 
-@media only screen and (max-width: 600px) {
-    .quote-mobile{
-        display: none;
-        grid-row: 3 / span 1;
-    }
+  ul{ 
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
+/* desktop screen */
+@media only screen and (min-width: 600px){
+    .nav-bar-mobile {
+        display: none; 
+        grid-row: 3 / 4;
+    }
 
-@media only screen and (min-width: 600px) {
+    .quote-mobile {
+        display: none;
+        grid-row: 2 / 3;
+    }
+ }
+
+ .nav-bar-desktop {
+    position: absolute;
+    bottom: 600px;
+    right: 16px;
+    text-align: right;
+    }  
+
+    .quote-desktop {
+        position: center;
+        bottom: 250px;
+        left: 16px;
+        text-align: center;
+        font-style: italic;
+        font-family: 'Raleway', sans-serif;
+        font-color: #636161;
+        font-size: 50px;
+    }
+
+/* mobile screen */
+@media only screen and (max-width: 600px){
+    .nav-bar-desktop {
+        display: none;
+        grid-row: 3 / span 1;
+        }  
+    
     .quote-desktop{
         display: none;
         grid-row: 3 / span 1;
     }
 }
 
-.main {    
-    grid-row: 3 / span 1;
-
-}
-.nav-bar {
-    grid-row: 3 / span 1;
-}
-
-/* Change the link color on hover */
-.nav-bar:hover {
-    background-color: yellow;
-}
-
-
-
-
 .footer{
     background: #C3B4C1;
     align-items: center;
     display: flex;
     justify-content: center;
-    grid-row: 4 / span 1;
+    grid-row: 4 / 5;
 }
