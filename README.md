@@ -12,8 +12,16 @@ To build and deploy a website that will show my skills not only as a developer u
 This website has four pages of content which can be toggled via the nav bar.
 <br>
 The home page is responsive for mobile with the use of media queries.  Media queries enable to quote to move between the header image and the main content section.  A media query also enables the nav bar to move from the centre main area up to the rop right below the header image.
+<br>
+The home page quote features "lightening" animation, however this is only functional using Firefox.
+<br>
+Each page contains logo click-throughs direct to mylinked profile and github account set in the footer.
 
 # Sitemap:
+Home
+About Me
+Work Experience
+Contact Me
 
 
 # Screenshots:
@@ -39,6 +47,7 @@ Pinterest was my inspiration of this page.<br>
 I like crisp, clean and calming colours, so spent time looking at white and feathers.<br>
 The feathers add an element of texture, but softness which complements the calming colours. <br>
 The colours selected were chalky colours that are somewhat muted, in line with the calming theme.
+
 # Wireframes:
 ![page1 and page2](statics/docs/wireframe1.png)
 ![page3 and page4](statics/docs/wireframe2.png)
@@ -52,6 +61,8 @@ Instead, I opted to use an image of myself on each page.
 The home page has been made to be responsive between desktop and mobile with the use of media queries.
 <br>
 However, due to lack of time, this functionality has not carried across to the remaining three pages, therefore the nav bar falls at various sections on each page and does not manipulate for smaller screen readibility.
+<br>
+The home page also has animation, however this is not compatible with Chrome and needs to be viewed in Firefox.
 
 # DETAILS OF PLANNING PROCESS INCLUDING:
 # Project plan & timeline:
