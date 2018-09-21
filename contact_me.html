@@ -2,39 +2,83 @@
 <html>
 <head>
 <title>Contact Me</title>
-<link rel="stylesheet" href="statics/style.css">
+<link rel="stylesheet" href="/statics/contact_me.css" >
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 </head>
 <body>
 
-        <div>
-                <img src="statics/docs/feathers.jpg" alt="feathers image" style="width:300px;height:100px;">  
+        <div class="container">
+
+                <div class="index header-1">
+                </div>
+                        
+                <div class="header-2" alt="feathers image">
+                </div>
+        
+
+                <div class="main">
+                                <img class="fiona-bw" src="/statics/docs/fiona_bg.jpg" alt="image of fiona">
+        
+                                <div class="nav-bar-desktop">
+                                        <ul>                                            <li><a href="index.html">Home         /</a></li>
+                                        <li><a href="about_me.html">  About Me/</a></li>
+                                        <li><a href="work.html">  Work Experience  /</a></li>
+                                        <li><a href="contact_me.html">  Contact Me</a></li>
+                                        </ul>
+                                </div>  
+
+                
+                                <form class="submission-form">
+  
+                                                <label for="first-name">
+                                                  First Name
+                                                </label>
+                                                
+                                                <input type="text" id="first-name">
+                                                
+                                                <label for="last-name">
+                                                  Last Name
+                                                </label>
+                                                
+                                                <input type="text" id="last-name">
+                                                
+                                                <label for="email">
+                                                    Email
+                                                </label>
+                                                
+                                                <input type="email" id="email">
+                                                
+                                                
+                                                <label for="message">
+                                                  Message
+                                                </label>
+                                                
+                                                <textarea id="message"></textarea>
+                                                
+                                                <input type="submit" value="Send" id="sendBtn">
+                                                
+                                              </form>
+
+
+
+
+                                <!-- <form action="/action_page.php">
+                                 Your Email:<br>
+                                <input type="text" name="Your email" value=""><br>
+                                Message:<br>
+                                <input type="text" name="Message" value=""><br><br>
+                                <input type="submit" value="Submit">
+                                </form> -->
+                </div>
+
+                <div class="footer">
+                <a href="https://github.com/fionatolliday"><i class="fab fa-github-square" style="font-size:80px;color:white; margin:10px;"></i></a>
+                <a href="https://www.linkedin.com/in/fiona-tolliday-132a6321/"><i class="fab fa-linkedin" style="font-size:80px;color:white;margin:10px;"></i></a>
+                </div>
+                
         </div>
-
-        <div>
-                <img src="statics/docs/fiona bw.jpg" alt="image of fiona" style="width:100px;height:100px;">  
-        </div>
-
-        <nav class="topnav">
-                <a href="#home">Home</a>
-                <a href="#About Me">About Me</a>
-                <a href="#Work Experience">Work Experience</a>
-                <a class="active" href="#Contact Me">Contact Me</a>
-        </nav>
-
-        <form action="/action_page.php">
-            Your Email:<br>
-            <input type="text" name="Your email" value=""><br>
-            Message:<br>
-            <input type="text" name="Message" value=""><br><br>
-            <input type="submit" value="Submit">
-        </form>
-
-        <div>
-            <footer class="contactme">
-                    <img src="statics/docs/github.png" alt="github logo" style="width:50px;height:50px;">  
-                    <img src="statics/docs/linkedin.png" alt="linkedin logo" style="width:50px;height:50px;">  
-            </footer>
-        </div>
+                        
 
 </body>
 </html>

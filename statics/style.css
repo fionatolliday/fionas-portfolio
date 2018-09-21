@@ -78,6 +78,7 @@ body {
 
 
  .nav-bar-desktop {
+    display: flex;
     flex-wrap: wrap;
     position: absolute;
     bottom: 665px;

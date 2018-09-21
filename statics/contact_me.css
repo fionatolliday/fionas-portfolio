@@ -1,4 +1,4 @@
-/* work page */
+/* contact me page */
 body {
     margin: 0;
 }
@@ -9,12 +9,12 @@ body {
     grid-template-rows: 0.25fr 0.8fr 2fr 0.5fr;
     grid-template-columns: 1fr;
     font-family: 'Raleway', sans-serif;
-    color: #97C9C6;
+    color: #636161;
     
 }
 
 .header-1 {   
-    background: #97C9C6;
+    background: #9389BE;
     border: 1px solid white;
     grid-row: 1 / 2;
 }
@@ -58,7 +58,6 @@ ul{
     right: 10px;
     text-align: right;
     }  
-    
 
     .nav-bar-desktop li{
         flex-flow: row wrap;    
@@ -66,20 +65,50 @@ ul{
     
         }
 
-.work {
-    overflow: scroll;
-    position: center;
-    bottom: 250px;
-    left: 16px;
-    text-align: center;
-    font-family: 'Raleway', sans-serif;
-    color: #636161;
-    font-size: 15px;
-    line-height: 1.6;
+    .submission-form{
+        max-width:500px;
+        margin:2rem auto;
+        padding:2rem;
+        border-radius:5px;
     }
 
-    .footer{
-        background: #97C9C6;
+    label {
+        display:block;
+        padding:1rem 0 .25rem;
+        text-transform:uppercase;
+        font-size:18px;
+        }
+
+        input. textarea{
+        display:block;
+        width:100%;
+        border:1px solid #636161;
+        padding:.5rem;
+        font-size:18px;
+        border-radius:10px;
+        }
+            
+        
+          
+          #sendBtn{
+            display: block;
+            font-size: 15px;
+            border:0;
+            background:#9389BE;
+            padding:.5rem;
+            color:white;
+            margin:1rem 0;
+            width:100px;
+            text-transform:uppercase;
+            cursor:pointer;
+            transition:.3s background ease;
+            &:hover{
+              background:#3498DB;
+            }
+          }
+
+.footer{
+        background: #9389BE;
         align-items: center;
         display: flex;
         justify-content: center;
