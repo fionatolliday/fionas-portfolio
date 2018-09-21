@@ -4,19 +4,27 @@ body {
 }
 
 .container {
-    display: grid;
+    /* display: flex; */
+    /* flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+
+    /* display: grid;
     height: 100vh;
     grid-template-rows: 0.25fr 0.8fr 2fr 0.5fr;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr; */
     font-family: 'Raleway', sans-serif;
-    color: #97C9C6;
+    color: #636161;
+  
     
 }
 
 .header-1 {   
+    /* align-self: flex-start; */
     background: #97C9C6;
     border: 1px solid white;
-    grid-row: 1 / 2;
+    height: 3em;
+    /* grid-row: 1 / 2; */
 }
 
 .header-2 {
@@ -24,14 +32,31 @@ body {
     background-image: no-repeat;
     background-size: cover;
     background-position: center center;
-    grid-row: 2 / 3;
-    position: relative;
-    z-index: -1;
-    text-align: center;
-    color: white;
+    height: 15em;
+    /* grid-row: 2 / 3; */
+    /* position: relative; */
+    /* z-index: -1; */
+    /* text-align: center; */
+    /* color: white; */
 }
 
-.main img {
+.nav-bar{
+    text-align: right;
+    flex-wrap: wrap;
+}
+.nav-bar li{
+    flex-flow: row wrap;    
+    display: inline-flex;
+}
+
+.work-experience {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.black-white-image {
     margin-top: -100px;
     object-fit: none;
     border-radius: 80%;
@@ -45,26 +70,25 @@ body {
     margin-bottom: 0px;
 }
 
-ul{ 
+ul { 
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
-.nav-bar-desktop {
+/* .nav-bar-desktop {
     flex-wrap: wrap;
     position: absolute;
     bottom: 665px;
     right: 10px;
     text-align: right;
-    }  
+}  
     
 
-    .nav-bar-desktop li{
-        flex-flow: row wrap;    
-        display: inline-flex;
-    
-        }
+.nav-bar-desktop li {
+    flex-flow: row wrap;    
+    display: inline-flex;
+} */
 
 .work {
     overflow: scroll;
@@ -78,10 +102,10 @@ ul{
     line-height: 1.6;
     }
 
-    .footer{
-        background: #97C9C6;
-        align-items: center;
-        display: flex;
-        justify-content: center;
-        grid-row: 4 / 5;
+.footer {
+    background: #97C9C6;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    /* grid-row: 4 / 5; */
 }
