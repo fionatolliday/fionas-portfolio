@@ -41,12 +41,23 @@ body {
 }
 
 .nav-bar{
+    display: flex;
+    position: absolute;
+    top: 290px;
+    right: 10px;
+    align-items: right;
+    justify-content: right;
     text-align: right;
-    flex-wrap: wrap;
 }
 .nav-bar li{
     flex-flow: row wrap;    
     display: inline-flex;
+}
+
+ul { 
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 .work-experience {
@@ -55,6 +66,8 @@ body {
     align-items: center;
     text-align: center;
 }
+
+
 
 .black-white-image {
     margin-top: -100px;
@@ -70,11 +83,7 @@ body {
     margin-bottom: 0px;
 }
 
-ul { 
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
+
 
 /* .nav-bar-desktop {
     flex-wrap: wrap;

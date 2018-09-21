@@ -78,12 +78,11 @@ body {
 
  }
 
-
  .nav-bar-desktop {
     display: flex;
     flex-wrap: wrap;
     position: absolute;
-    bottom: 530px;
+    top: 233px;
     right: 10px;
     text-align: right;
     }  

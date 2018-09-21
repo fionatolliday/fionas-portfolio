@@ -54,7 +54,7 @@ ul{
 .nav-bar-desktop {
     flex-wrap: wrap;
     position: absolute;
-    bottom: 665px;
+    top: 130px;
     right: 10px;
     text-align: right;
     }  
