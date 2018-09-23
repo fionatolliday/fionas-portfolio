@@ -28,11 +28,11 @@ Contact Me  <br>
 
 
 # Screenshots:
-![home mobile](statics/docs/homemobile.png)
-![home desktop](statics/docs/homedesktop.png)
-![about page](statics/docs/aboutpage.png)
-![work page](statics/docs/workpage.png)
-![contact page](statics/docs/contactpage.png)
+![home mobile](/statics/docs/homemobile.png)
+![home desktop](/statics/docs/homedesktop.png)
+![about page](/statics/docs/aboutpage.png)
+![work page](/statics/docs/workpage.png)
+![contact page](/statics/docs/contactpage.png)
 
 # Target audience:
 Primary target: head hunters
@@ -52,8 +52,8 @@ The feathers add an element of texture, but softness which complements the calmi
 The colours selected were chalky colours that are somewhat muted, in line with the calming theme. <br>
 
 # Wireframes:
-![page1 and page2](statics/docs/wireframe1.png)
-![page3 and page4](statics/docs/wireframe2.png)
+![page1 and page2](/statics/docs/wireframe1.png)
+![page3 and page4](/statics/docs/wireframe2.png)
 
 
 # Personal logo (optional):
@@ -79,7 +79,7 @@ Finalise: git hub, deploying and handing in assignment for grading. <br>
 
 
 # Screenshots of Trello board(s):
-![Trello board](statics/docs/website-trello.png) <br>
+![Trello board](/statics/docs/website-trello.png) <br>
 
 
 # SHORT ANSWER Q&A:
